@@ -9,6 +9,7 @@
     "noEmitOnError": true,
     "strict": true,
     "noUnusedLocals": true,
+    "experimentalDecorators": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "skipLibCheck": true
