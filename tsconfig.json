@@ -1,18 +1,23 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "es6",
     "module": "commonjs",
-    "lib": ["DOM", "ESNext", "DOM.Iterable", "ScriptHost"],
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "dom",
+      "es6",
+      "dom.iterable",
+      "scripthost"
+    ],
     "removeComments": true,
     "noEmitOnError": true,
     "strict": true,
     "noUnusedLocals": true,
-    "experimentalDecorators": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "skipLibCheck": true
+    "esModuleInterop": true,
+    "experimentalDecorators": true
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

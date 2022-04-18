@@ -4,7 +4,8 @@
   "description": "Don't limit the Usage of TypeScript to Angular! Learn the Basics, its Features, Workflows and how to use it!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
